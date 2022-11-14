@@ -1,0 +1,20 @@
+BEGIN
+
+tax = 1.14 (14%)
+
+OUTPUT "Hipster's Local Vinyl Records - Customer Order Details"
+
+INPUT name
+INPUT kilometers
+INPUT cost
+
+delivery = kilometers * 15
+purchase = cost * tax
+total = purchase + delivery
+
+OUTPUT "Purchase Summary for: " + name
+OUTPUT "Delivery Cost: " + delivery
+OUTPUT "Purchase Cost: " + purchase
+OUTPUT "Total Cost: " + total
+
+END
