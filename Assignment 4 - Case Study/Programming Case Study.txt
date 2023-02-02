@@ -1,0 +1,20 @@
+ Instructions
+Case Study 1 : Hospital Management System
+
+Given data of Hospitals with the name of hospital, contact and doctors and patients below are the functionalities that needed to be implemented:
+
+Functions Supported:
+
+Print Hospital data
+Print Patients data
+Search hospital of any specific city
+The important functions in the program:
+
+PrintHospitalData() : It will print all the hospitals data.
+PrintPatientData() : It will print all the hospitals data.
+SearchHospital() : It will print the hospital data based on specific city.
+Approach:
+
+Create classes for both the Hospital and Patient data.
+Initialize variables that store Hospital and Patient data.
+Create Objects for hospitals and Patient classes that access the Hospital and Patient data.
